@@ -113,7 +113,7 @@ public class SubscriptionService implements SubscriptionPort {
 
         if (!benefitModel.getReactivable()) {
             if (obtainSubscriptionBenefit.findByUserIdAndBenefitIdAndServerId(userId, benefitModel.getId(), serverId).isPresent()) {
-                throw new InternalException("", transactionId);
+                throw new InternalException("benefit has been claimed", transactionId);
             }
             SubscriptionBenefitEntity subscriptionBenefit = new SubscriptionBenefitEntity();
             subscriptionBenefit.setBenefitId(benefitModel.getId());
