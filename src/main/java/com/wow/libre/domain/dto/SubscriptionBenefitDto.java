@@ -20,6 +20,7 @@ public class SubscriptionBenefitDto {
     private String type;
     private Double amount;
     private List<Items> items;
+    private Long serverId;
 
     @Data
     public static class Items {

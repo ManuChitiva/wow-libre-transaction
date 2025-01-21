@@ -9,7 +9,8 @@
       "send_item": false,
       "reactivable": true,
       "btn_txt": "Cambiar Ahora",
-      "type": "CHANGE_FACTION"
+      "type": "CHANGE_FACTION",
+      "server_id": 1
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "send_item": false,
       "reactivable": true,
       "btn_txt": "Cambiar Ahora",
-      "type": "CHANGE_RACE"
+      "type": "CHANGE_RACE",
+      "server_id": 1
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "send_item": false,
       "reactivable": true,
       "btn_txt": "Cambiar Ahora",
-      "type": "CUSTOMIZE"
+      "type": "CUSTOMIZE",
+      "server_id": 1
     },
     {
       "id": 4,
@@ -47,7 +50,8 @@
           "quantity": 1
         }
       ],
-      "type": "ITEM"
+      "type": "ITEM",
+      "server_id": 1
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
           "quantity": 1
         }
       ],
-      "type": "ITEM"
+      "type": "ITEM",
+      "server_id": 1
     },
     {
       "id": 6,
@@ -79,7 +84,8 @@
           "quantity": 1
         }
       ],
-      "type": "ITEM"
+      "type": "ITEM",
+      "server_id": 1
     },
     {
       "id": 7,
@@ -95,7 +101,8 @@
           "quantity": 1
         }
       ],
-      "type": "ITEM"
+      "type": "ITEM",
+      "server_id": 1
     },
     {
       "id": 8,
@@ -111,7 +118,59 @@
           "quantity": 1
         }
       ],
-      "type": "ITEM"
+      "type": "ITEM",
+      "server_id": 1
+    },
+    {
+      "id": 9,
+      "img": "https://static.wixstatic.com/media/5dd8a0_8b7aaa1909204971960a7a0b21788492~mv2.webp",
+      "name": "Huevo de gallo mágico",
+      "description": "Bienvenida Wow Frozen",
+      "send_item": true,
+      "reactivable": false,
+      "btn_txt": "Obtener",
+      "items": [
+        {
+          "code": "49290",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
+    },
+    {
+      "id": 10,
+      "img": "https://static.wixstatic.com/media/5dd8a0_73c04db5355d4dd18d589eea42a40f92~mv2.jpg",
+      "name": "Traje de múrloc",
+      "description": "Disfraz",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obtener",
+      "items": [
+        {
+          "code": "33079",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
+    },
+    {
+      "id": 11,
+      "img": "https://static.wixstatic.com/media/5dd8a0_c95e3cda4ac64c9fa37bd027fbdcd115~mv2.webp",
+      "name": "Pandaren Monk",
+      "description": "Compañero Vip",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obtener",
+      "items": [
+        {
+          "code": "49665",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
     }
   ],
   "en": [
@@ -227,6 +286,57 @@
         }
       ],
       "type": "ITEM"
+    },
+    {
+      "id": 9,
+      "img": "https://static.wixstatic.com/media/5dd8a0_8b7aaa1909204971960a7a0b21788492~mv2.webp",
+      "name": "magic rooster egg",
+      "description": "Welcome Wow Frozen",
+      "send_item": true,
+      "reactivable": false,
+      "btn_txt": "Obtain",
+      "items": [
+        {
+          "code": "49290",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
+    },
+    {
+      "id": 10,
+      "img": "https://static.wixstatic.com/media/5dd8a0_73c04db5355d4dd18d589eea42a40f92~mv2.jpg",
+      "name": "murloc costume",
+      "description": "Costume",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obtain",
+      "items": [
+        {
+          "code": "33079",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 1
+    },
+    {
+      "id": 11,
+      "img": "https://static.wixstatic.com/media/5dd8a0_c95e3cda4ac64c9fa37bd027fbdcd115~mv2.webp",
+      "name": "Pandaren Monk",
+      "description": "Compañero Vip",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obtain",
+      "items": [
+        {
+          "code": "49665",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 1
     }
   ],
   "pt": [
@@ -298,8 +408,8 @@
     {
       "id": 6,
       "img": "https://static.wixstatic.com/media/5dd8a0_73c04db5355d4dd18d589eea42a40f92~mv2.jpg",
-      "name": "Traje de Murloc",
-      "description": "Compañero Vip",
+      "name": "Fantasia de Murloc",
+      "description": "fantasia",
       "send_item": true,
       "reactivable": true,
       "btn_txt": "Obter",
@@ -342,6 +452,57 @@
         }
       ],
       "type": "ITEM"
+    },
+    {
+      "id": 9,
+      "img": "https://static.wixstatic.com/media/5dd8a0_8b7aaa1909204971960a7a0b21788492~mv2.webp",
+      "name": "ovo de galo mágico",
+      "description": "Bem vindo Uau Frozen",
+      "send_item": true,
+      "reactivable": false,
+      "btn_txt": "Obter",
+      "items": [
+        {
+          "code": "49290",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
+    },
+    {
+      "id": 10,
+      "img": "https://static.wixstatic.com/media/5dd8a0_73c04db5355d4dd18d589eea42a40f92~mv2.jpg",
+      "name": "Fantasia de Murloc",
+      "description": "fantasia",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obter",
+      "items": [
+        {
+          "code": "33079",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
+    },
+    {
+      "id": 11,
+      "img": "https://static.wixstatic.com/media/5dd8a0_c95e3cda4ac64c9fa37bd027fbdcd115~mv2.webp",
+      "name": "Pandaren Monk",
+      "description": "Companheiro VIP",
+      "send_item": true,
+      "reactivable": true,
+      "btn_txt": "Obter",
+      "items": [
+        {
+          "code": "49665",
+          "quantity": 1
+        }
+      ],
+      "type": "ITEM",
+      "server_id": 2
     }
   ]
 }
